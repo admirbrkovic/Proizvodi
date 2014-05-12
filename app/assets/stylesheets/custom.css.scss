@@ -1,0 +1,149 @@
+@import "bootstrap";
+
+
+.all {
+      background-color: #1c2838;
+      height: 655px; 
+
+      .logo {
+      	background-color: #141c27;
+      	height: 130px;
+      	margin-top: 50px;
+      	border-radius: 4px;
+      	width: 110px;
+      	margin-left: 130px;
+
+      	h3 {
+      		font-family: 'Roboto Condensed', sans-serif;
+      		color: white;
+      		font-weight: bold;
+      		margin-left: 24px;
+      		margin-top: 12px;
+      	}
+      }
+
+      img {
+      	height: 60px;
+      	width: 60px;
+      	margin-top: 20px;
+      	margin-left: 25px;
+      }	  
+
+      .log {
+      	height: 130px;
+      	background-color: #141c27;
+      	margin-top: 50px;
+      	border-radius: 4px;
+      	margin-left: 30px;
+      	width: 400px;
+
+
+      	h3 {
+      		color: white;
+      		font-family: 'Varela Round', sans-serif;
+      		padding-left: 15px;
+      		padding-top: 10px;
+      	}
+      	h5 {
+      		color: white;
+      		font-family: 'Varela Round', sans-serif;
+      		padding-left: 15px;
+      		font-size: 12px;
+      		font-weight: normal;
+      		margin-top: -5px;
+
+      	}
+      	.form-group {
+      		margin-left: 15px;
+      		width: 250px;
+      		margin-top: 5px;
+            }
+      	.btn {
+      			color: white;
+      			background-color: red;
+      			width: 98px;
+      			margin-top: 5px;
+      		}
+      	.form-control {
+      		width: 250px;
+      	}	
+      }  
+
+      .headline {
+      	margin-top: 30px;
+      	height: 130px;
+      	background-color: #141c27;
+      	border-radius: 4px;
+      	margin-left: 130px;
+      	width: 520px;
+        }
+
+        h1 {
+        	color: white;
+        	font-size: 74px;
+        	margin-left: 30px;
+        	font-family: 'Roboto', sans-serif;
+        	padding-top: 20px;
+        	padding-left: 5px;
+        }
+
+        .main-pic {
+        	img {
+        		height: 200px;
+        		width: 500px;
+        		margin-left: 365px;
+        		margin-top: 20px;
+        	}
+        }
+
+        .hor-line {
+        	width: 700px;
+        	height: 2px;
+        	background-color: #0e141c;
+        	box-shadow: 6px 5px 5px 0px  rgba(0,2,2, .9);
+        }
+}
+
+
+ .column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+    .column7 {
+       @include span-columns(7);
+    }
