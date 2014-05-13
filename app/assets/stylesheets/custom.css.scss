@@ -105,6 +105,85 @@
 }
 
 
+
+  .homepage2 {
+       background: -moz-linear-gradient(top, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 50%, #e0eff9 100%);
+       height: 635px;
+
+      .logo {
+       	  margin-top: 240px;
+       	  margin-left: 120px;
+
+       	  img {
+       	  	height: 200px;
+       	  	width: 200px;
+       	  	-moz-transform:rotate(-14deg);
+       	  }
+
+       	  h2 {
+       	  	color: white;
+       	  	font-family: 'Roboto', sans-serif;
+       	  	margin-left: 48px;
+       	  	font-weight: bold;
+       	  	margin-top: -10px;
+       	  }
+       }
+
+       .headline {
+       	margin-left: -70px;
+       	  h1 {
+       	  	color: #242424;
+       	  	font-family: 'Lobster', cursive;
+       	  	margin-top: 220px;
+       	  	font-size: 86px;
+       	  }
+       }
+
+       .log1 {
+       	margin-left: -70px;
+       	    h4 {
+       	    	font-family: 'Roboto', sans-serif;
+       	    	font-weight: normal;
+       	    	padding-top: 10px;
+       	    }
+       	    h5 {
+       	    	margin-top: -8px;
+       	    	font-family: 'Roboto', sans-serif;
+       	    	font-weight: normal;
+       	    }
+          
+  }
+
+        .log2 {
+        	margin-left: -70px;
+        	.form-group {
+        		margin-left: -4px;
+             }
+
+        	.btn {
+        		background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+        	}
+        	.form-control {
+        		width: 180px;
+        	}
+          
+       }
+  }
+
+
+
+  .homepage3 {
+  	  background-image:url("../assets/images/1logo.gif");
+     background-size: 1440px 800px;
+     background-repeat:no-repeat;
+     -moz-background-size: cover;
+     h1 {
+     	color: red;
+     }
+ 
+  }
+
+
  .column {
        @include outer-container;
     }
