@@ -173,15 +173,107 @@
 
 
   .homepage3 {
-  	  background-image:url("../assets/images/1logo.gif");
-     background-size: 1440px 800px;
-     background-repeat:no-repeat;
-     -moz-background-size: cover;
-     h1 {
-     	color: red;
+  	
+  	height: 645px;
+     background-image:url("wood.jpg");
+            background-repeat:no-repeat;
+            height: 970px;
+             -moz-background-size: cover;
+       background-size: cover;
+     
+     .body {
+        height: 400px;
+        background: -moz-linear-gradient(-45deg, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); 
+        border-radius: 10px;
+        box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
+        margin-top: 125px;
+
+         .hor-line {
+          height: 4px;
+          border-top: 2px solid #0082e5;
+          border-bottom: 2px solid #00dbaf;
+          margin-top: 15px;
+           }
+
+           h1 {
+            color: white;
+            font-size: 80px;
+            font-family: 'Ubuntu Mono'; 
+            font-weight: bold;
+            padding-left: 70px;
      }
- 
-  }
+
+           .hor-line2 {
+          height: 4px;
+          border-top: 2px solid #0082e5;
+          border-bottom: 2px solid #00dbaf;
+          margin-top: 45px;
+
+           }
+
+           .text {
+            text-align: center;
+          
+            padding-left: 70px;
+            padding-right: 70px;
+
+            h4 {
+              color: white;
+              font-weight: normal;
+              font-family: 'Ubuntu Mono'; 
+            }
+
+            h2 {
+              color: white;
+               font-family: 'Ubuntu Mono'; 
+            }
+           }
+
+           .form-group {
+               margin-left: 75px;
+               margin-top: 3px;
+               height: 35px;
+
+               .form-control {
+                height: 34px;
+                margin-top: -3px;
+               }
+                }
+                 .btn5 {
+                margin-top: 29px;
+                height: 34px;
+                width: 80px;
+                color: white;
+                background-color: #299a0b;
+                border: 0px;
+                border-radius: 5px;
+
+               }
+       }
+      
+      .logo {
+         margin-left: -170px;
+        margin-top: 170px;
+        img {
+        height: 150px;
+        width: 220px;
+      }
+        
+    }
+           }
+
+
+
+    .homepage4 {
+
+       height: 645px;
+       background-image:url("blue-wood.jpg");
+       background-repeat:no-repeat;
+       height: 970px;
+      -moz-background-size: cover;
+       background-size: cover;
+
+    }       
 
 
  .column {
