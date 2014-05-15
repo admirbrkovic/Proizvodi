@@ -265,13 +265,151 @@
 
 
     .homepage4 {
-
+       background-color: #76c2d9;
        height: 645px;
-       background-image:url("blue-wood.jpg");
-       background-repeat:no-repeat;
-       height: 970px;
-      -moz-background-size: cover;
-       background-size: cover;
+
+       .logo {
+        img {
+          height: 100px;
+          width: 100px;
+          margin-top: 30px;
+        }
+        h2 {
+          color: white;
+          font-family: 'Roboto Condensed', sans-serif;
+          font-weight: bold;
+          padding-left: 5px;
+          margin-top: 3px;
+        }
+       }
+         img {
+            width: 450px;
+            
+            margin-top: 30px;
+            
+          }
+       .headline {
+        text-align: center;
+        margin-top: -44px;
+          h1 {
+            color: white;
+            font-family: 'Ubuntu Mono';
+            font-weight: bold;
+            font-size: 70px; 
+            padding-top: -20px;
+          }
+         
+          h4 {
+            color: white;
+            font-family: 'Ubuntu Mono';
+            font-weight: normal;
+            padding-top: 10px;
+            padding-left: 105px;
+            padding-right: 105px;
+          }
+
+          .hor-line {
+            height: 2px;
+            width: 420px;
+            border-top: 2px solid #5a94a6;
+            border-bottom: 2px solid #8be4ff;
+            margin-left: 110px;
+          }
+       }
+
+       .input-group {
+           width: 415px;
+           margin-left: 110px;
+           margin-top: 120px;
+           
+           color: white;
+           border-radius: 0px;
+           
+         
+
+           .form-control {
+            background-color: #b4e4ff;
+            color: white;
+            border: 0px;
+     
+           }
+
+           .btn {
+            background: -moz-radial-gradient(center, ellipse cover, rgba(41,154,11,1) 0%, rgba(41,154,11,1) 100%);
+            border: 0px;
+            width: 100px;
+            color: white;
+            border-radius: 0px;
+           }
+    
+     
+       }
+
+       .tagline {
+        text-align: center;
+           h6 {
+            color: white;
+           }
+       }
+
+      .cart {
+          img {
+            height: 150px; width: 150px;
+            margin-left: -20px;
+
+          }
+
+      }
+       .list1 {
+            img {
+              height: 30px;
+              width: 30px;
+              margin-top: -1px
+            }
+          }
+
+           .list2 {
+            img {
+              height: 30px;
+              width: 30px;
+              margin-left: 50px;
+              margin-top: -1px;
+            }
+          }
+
+           .list3 {
+            img {
+              height: 30px;
+              width: 30px;
+              margin-top: -2px;
+            }
+          }
+
+           .list4 {
+            img {
+               height: 30px;
+              width: 30px;
+              margin-left: 50px;
+              margin-top: -1px;
+            }
+          }
+
+           .list5 {
+            img {
+               height: 30px;
+              width: 30px;
+              margin-top: -1px;
+            }
+          }
+
+          .laptop {
+            img {
+              height: 330px;
+              width: 440px;
+              margin-left: -155px;
+              margin-top: 15px;
+            }
+          }
 
     }       
 
