@@ -411,7 +411,135 @@
             }
           }
 
-    }       
+    }   
+
+
+
+      .homepage5 {
+        .header {
+          opacity: .7;
+          position: fixed;
+        }
+
+        .logo {
+          height: 70px;
+          background-color: yellow;
+          width: 70px;
+          margin-left: 167px;
+        }
+
+        .icon1 {
+          height: 50px;
+          width: 50px;
+          background-color: grey;
+          margin-top: 25px;
+          margin-left: 200px;
+          &:hover {
+        background-color: green;
+          }
+        }
+         .icon2 {
+          height: 50px;
+          width: 50px;
+          background-color: grey;
+          margin-top: 25px;
+          margin-left: 200px;
+          &:hover {
+        background-color: yellow;}
+        }
+         .icon3 {
+          height: 50px;
+          width: 50px;
+          background-color: red;
+          margin-top: 25px;
+          margin-left: 200px;
+          &:hover {
+        background-color: red;}
+        }
+         .icon4 {
+          height: 50px;
+          width: 50px;
+          background-color: grey;
+          margin-top: 25px;
+          margin-left: 200px;
+          &:hover {
+        background-color: blue;}
+        }
+          .icon5 {
+          height: 50px;
+          width: 50px;
+          background-color: grey;
+          margin-top: 25px;
+          margin-left: 200px;
+          &:hover {
+        background-color: purple;}
+        }
+
+        .btn5 {
+          width: 150px;
+          height: 40px;
+          border: 0px;
+          border-radius: 0px;
+          background-color: red;
+          color: white;
+          margin-top: 35px;
+          margin-left: 156px;
+           &:hover {
+        background-color: purple;}
+
+
+        }
+
+        .picture1 {
+          height: 599px;
+          background-image:url("bg.jpg");
+          background-repeat:no-repeat;
+          -moz-background-size: cover;
+          background-size: cover;
+          margin-top: 130px;
+
+        }
+
+        .part3 {
+          margin-top: 60px;
+
+          img {
+            margin-left: 150px;
+            margin-top: 40px;
+          }
+        }
+           
+
+         .part4 {
+            .iphone {
+               height: 799px;
+               background-image:url("iphone.png");
+               background-repeat:no-repeat;
+               -moz-background-size: cover;
+               background-size: cover;
+               margin-top: 130px;
+               width: 550px;
+
+            }
+
+            .column7 {
+              margin-top: 400px;
+              padding: 30px;
+            }
+         }  
+
+        .part5 {
+           height: 499px;
+               background-image:url("sunset.jpg");
+               background-repeat:no-repeat;
+               background-size: cover;
+               margin-top: 1px;
+               padding-top: 150px;
+
+        }
+
+
+      }    
 
 
  .column {
