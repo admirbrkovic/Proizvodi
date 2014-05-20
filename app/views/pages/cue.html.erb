@@ -1,14 +1,24 @@
+
 <div class="homepage5">
+
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="../assets/stylesheets/jquery.fullPage.css" />
+ <link rel="stylesheet" type="text/css" href="../assets/stylesheets/examples.css" />
+
+<script type="text/javascript" src="../assets/javascript/examples.js"></script>
+<script src="../assets/javascript/jquery.easings.min.js"></script>   
+<script type="text/javascript" src="../assets/javascript/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="../assets/javascript/jquery.fullPage.js"></script>
 <script>
- $(document).ready(function(){
-  $("button").click(function(){
-    $("#div1").fadeIn();
-    $("#div2").fadeIn("slow");
-    $("#div3").fadeIn(3000);
-  });
+$(document).ready(function() {
+    $('#fullpage').fullpage();
 });
-   </script>
+</script>
+
+
+<div id="fullpage">
+ 
+ <div class="section" id="section1">
   <div class="header">
 	<div class="column">
 		<div class="column1">
@@ -68,22 +78,20 @@
   	<h4></h4>
   </div>
   </div>
+  </div>
+  
 
+  
+
+<div class="section" id="section2">  
   <div class="part3">
   	<div class="column6">
   	<img src="<%= image_path('box.jpg')%>" alt="">
   		<h4></h4>
   	</div>
   	<div class="column6">
-  	<script>
- $(document).ready(function(){
-  $("button").click(function(){
-    $("#div1").fadeIn();
-    $("#div2").fadeIn("slow");
-    $("#div3").fadeIn(3000);
-  });
-});
-   </script>
+    
+
   		<h1>Discover yourself</h1>
   		<h3>Cue is deep healt traker that lets you go</h3><h3> beyond traking steps and your weight</h3>
   		<div id="div1">
@@ -97,8 +105,11 @@
   		</div>
   	</div>
   </div>
+  </div>
+  
+  
 
-
+   <div class="section" id="section3">
      <div class="part4">
      	<div class="column">
      		<div class="column7">
@@ -109,13 +120,21 @@
      		</div>
      		<div class="column5">
      			<div class="iphone">
-     				<h4></h4>
+
+           
+     			
+
+          	<h4></h4>
      			</div>
      		</div>
      	</div>
      </div>
+     </div>
+     
 
+     <div class="section" id="section4">
      <div class="part5">
+     
      	<h4></h4>
      	<div class="column6">
      		<h4></h4>
@@ -125,4 +144,7 @@
      		<h3>Be most motivated, happy and healthy yourself</h3>
      	</div>
      </div>
+     </div>
+     </div>
 </div>
+
