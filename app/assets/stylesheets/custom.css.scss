@@ -501,14 +501,14 @@
         }
 
         .part3 {
-          margin-top: 260px;
+          margin-top: 160px;
 
           img {
             margin-left: 150px;
-            margin-top: 190px;
+            margin-top: 90px;
           }
           h1 {
-            margin-top: 200px;
+            margin-top: 100px;
           }
         }
            
@@ -543,6 +543,251 @@
 
 
       }    
+
+
+      .cue {
+    @include outer-container;
+    color: #818181;
+      header {
+        position: fixed;
+         @include span-columns(12);
+         position: fixed;
+         padding: 10px 100px;
+         background-color: white;
+         opacity: 0.8;
+         z-index: 100;
+      a {
+       @include span-columns(1);
+       .logo {
+           width: 100%;
+         }
+         }
+           ul {
+             @include span-columns(5);
+             
+             margin-top: 25px;
+            li {
+              @include span-columns(1 of 5);
+                display: inline-block;
+             a { 
+           @include span-columns(5);
+            
+             img {
+          margin-left: 1px;
+          }
+         }
+     .name {
+       display: none;
+        }
+      }
+     .blue {
+     &:hover {
+      .logo {
+      border-color: blue;
+     }
+     .name {
+       display: block;
+       color: blue;
+       text-align: center;
+       text-decoration: none;
+      }
+    } 
+    }
+      .purple {
+       &:hover {
+       .logo {
+        border-color: purple;
+      }
+     .name {
+     display: block;
+     color: purple;
+     text-align: center;
+     text-decoration: none;
+      }
+     } 
+     }
+    .red {
+      &:hover {
+       .logo {
+      border-color: red;
+      }
+     .name {
+     display: block;
+     color: red;
+     text-align: center;
+     text-decoration: none; 
+      }
+     } 
+     }
+     .yellow {
+    &:hover {
+     .logo {
+      border-color: yellow;
+     }
+    .name {
+      display: block;
+      color: yellow;
+      text-align: center;
+      text-decoration: none;
+      }
+     } 
+     }
+     .green {
+       &:hover {
+       .logo {
+        border-color: green;
+        }
+      .name {
+      display: block;
+      color: green;
+      text-align: center;
+      text-decoration: none;
+      }
+      } 
+      }
+      }
+     button {
+    @include span-columns(3);
+    
+    background-color: yellow;
+    border-style: none;
+    color: white;
+    width: 150px;
+    font-size: 1.3em;
+    padding: 10px 0px;
+    margin-top: 15px;
+    }
+     }
+   .first {
+      @include span-columns(12);
+      @include clearfix;
+      padding: 50px 200px;
+      img {
+        width: 714px;
+        margin-left: -100px;
+        height: 515px;
+        margin-top: 15px;
+          }
+         }
+     .second {
+        @include span-columns(12);
+        @include clearfix;
+        padding: 0px 100px;
+       .left {
+         @include span-columns(6);
+         img {
+          @include span-columns(11);
+           margin-top: 80px;
+            }
+}
+      .right{
+       @include span-columns(6);
+        .title {
+         font-size: 3em;
+         }
+        p {
+        font-size: 1.2em;
+        padding: 5px 0px;
+        }
+       #fifth {
+       margin-top: 5%;
+       padding-left: 10px;
+       }
+       #sixth {
+       margin-left: 35%;
+       margin-top: 20px;
+       }
+       #seventh {
+       margin-left: 35%;
+       margin-top: 20px;
+       }
+       #eighth {
+        margin-left: 35%;
+        margin-top: 20px
+       }
+       #nineth {
+        margin-left: 35%;
+        margin-top: 20px;
+       }
+       #tenth {
+        margin-left: 35%;
+        margin-top: 20px;
+       }
+       #eleventh {
+        margin-left: 35%;
+       }
+      }
+     }
+      .third {
+
+       @include span-columns(12);
+       @include clearfix;
+        padding: 50px 50px 0px 50px;
+
+      .left {
+        @include span-columns(6);
+        margin-top: 200px;
+       .title {
+       font-size: 3em;
+       }
+       p {
+          font-size: 1.2em;
+          padding: 8px 0px;
+          }
+          }
+        .right {
+        @include span-columns(6);
+        background-image: url('iphone.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-top: 70px;
+
+       .carousel {
+         margin-top: -30px;
+         margin-left: 60px;
+        
+         .carousel-inner {
+          width: 217px;
+          height: 400px;
+          margin-top: -80px;
+          .item {
+             width: 217px;
+          height: 400px;
+          margin-top: -80px;
+          }
+         img {
+          height: 410px;
+          width: 235px;
+          margin-top: 0px;
+           }
+         }
+         }
+          }
+         }
+       .fourth {
+        z-index: 10;
+          img {
+           margin-left: -200px;
+           height: 770px;
+           width: 1400px;
+          }
+        .right {
+        @include span-columns(6);
+        @include shift(6);
+        position: relative;
+        margin-top: -580px;
+       .title {
+          font-size: 4em;
+          color: white;
+          }
+        p {
+       font-size: 1.6em;
+        padding: 8px 0px;
+        color: white;
+       }
+       }
+       }
+    
 
 
  .column {
@@ -587,3 +832,5 @@
     .column7 {
        @include span-columns(7);
     }
+
+  }
