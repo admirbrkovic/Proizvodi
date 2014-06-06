@@ -43,7 +43,11 @@ $('#nineth').finish();
 $('#tenth').finish();
 $('#eleventh').finish();
      }
+      if((current==3 && next==4) || (current==5 && next==4)) {
+$('#jedan').animate({marginTop: "100px"}, 3000);
      }
+    
+}
 });
 
 $('.carousel').carousel({
@@ -52,16 +56,8 @@ interval: 2000
 });
 
 
-function ani(){
-    $('#jedan').animate(
-        {'margin-top': '80px'}, 
-        4000, // duration
-        function(){
-            $('#jedan').css('margin-top','10px');
-             ani();
-         });
-    };
-ani();
+
+
 
 
 
